@@ -49,8 +49,6 @@ public class AbstractionDemo {
 			System.out.println("Phone is integrated with healthMonitoring");	
 		}
 		
-	
-
 	}
 
 
