@@ -1,7 +1,7 @@
 package Jr_Developer;
 
 public class KIA_AirBags {
-	protected void display_Air()
+	public void display_Air()
 	{
 		System.out.println("all KIA have Airbag welcome");
 	}public static void main(String[] args) {
