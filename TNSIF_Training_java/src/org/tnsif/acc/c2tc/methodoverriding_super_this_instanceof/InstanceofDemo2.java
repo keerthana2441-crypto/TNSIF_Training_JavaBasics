@@ -17,17 +17,13 @@ class Paypal extends PaymentMethod
 {
 	void loginToPaypal()
 	{
-		System.out.println("Logging into paypal");
+		System.out.println("Logging into swipping");
 	}
 }
 public class InstanceofDemo2 {
-
 	public static void main(String[] args) {
 		PaymentMethod payment=new PaymentMethod();
-		
-		
 		payment=new Paypal();
-		
 		if(payment instanceof CreditCard)
 		{
 			CreditCard cc=(CreditCard)payment;
@@ -38,8 +34,6 @@ public class InstanceofDemo2 {
 			Paypal pp =(Paypal)payment;
 			pp.loginToPaypal();
 		}
-
 	}
-
 }
 
